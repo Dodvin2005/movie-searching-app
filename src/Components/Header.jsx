@@ -35,12 +35,6 @@ function Header() {
             <Link to={'/'} className='text-light text-decoration-none fw-bolder'> Film-World</Link>
           </Typography>
 
-           {/* <form class="d-flex mx-5 " role="search">
-        <input class="form-control me-2 pb-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-light fw-bolder" type="submit">Search</button>
-      </form> */}
-
-
           <Tooltip title={aboutUsContent}> <Button color="inherit" className='fs-9 fw-bolder mx-4' sx={{ fontFamily: "'Oswald', sans-serif" }}>About-us</Button></Tooltip>
         </Toolbar>
       </AppBar>
